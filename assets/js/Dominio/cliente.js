@@ -10,7 +10,7 @@ export class Cliente {
 
     /* Getter */
     get nombre() {
-        return this.#nombre;
+        return this.#nombre; //Devuelve el dato protegido
     }
     /* Setter */
     set nombre(newValue) {
@@ -18,7 +18,7 @@ export class Cliente {
     }
      /* Getter */
     get impuesto() {
-        return this.#impuesto;
+        return this.#impuesto; //Devuelve el dato protegido
     }
      /* Setter */
     set impuesto(newValue) {

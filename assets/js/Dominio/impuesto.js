@@ -9,7 +9,7 @@ export class Impuesto {
     }
         /* Getter */
     get montoBrutoAnual() {
-        return this.#montoBrutoAnual;
+        return this.#montoBrutoAnual; //Devuelve el dato protegido
     }
     /* Setter */
     set montoBrutoAnual(newValue) {
@@ -17,7 +17,7 @@ export class Impuesto {
     }
      /* Getter */
     get deducciones() {
-        return this.#deducciones;
+        return this.#deducciones; //Devuelve el dato protegido
     }
      /* Setter */
     set deducciones(newValue) {
