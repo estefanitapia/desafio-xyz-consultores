@@ -1,5 +1,5 @@
-import { Cliente } from "./Dominio/cliente.js";
-import { Impuesto } from "./Dominio/impuesto.js";
+import { Cliente } from "./Dominio/Cliente.js";
+import { Impuesto } from "./Dominio/Impuesto.js";
 
 const impuesto1 = new Impuesto (2000, 200);
 const cliente1 = new Cliente ("Juanito", impuesto1);
